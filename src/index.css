@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 113, 113);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.bg-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 238, 247, 1) 0%,
+    rgba(206, 3, 184, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.react-player {
+  height: 77vh !important;
+  width: 100% !important;
+}
+
+/* Color Theme Swatches in Hex */
+.Fashion-1-hex {
+  color: #d9d9d9;
+}
+.Fashion-2-hex {
+  color: #8c8c8c;
+}
+.Fashion-3-hex {
+  color: #595959;
+}
+.Fashion-4-hex {
+  color: #262626;
+}
+.Fashion-5-hex {
+  color: #0d0d0d;
+}
+
+//* Color Theme Swatches in Hex */
+.Teals-1-hex {
+  color: #0fc2c0;
+}
+.Teals-2-hex {
+  color: #0caba8;
+}
+.Teals-3-hex {
+  color: #008f8c;
+}
+.Teals-4-hex {
+  color: #015958;
+}
+.Teals-5-hex {
+  color: #023535;
+}
+
+ .active{
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(2px);
+}
